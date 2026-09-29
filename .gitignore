@@ -1,4 +1,20 @@
+# Secrets
+*.pem
+*.key
+.env
+
+# Dependencies
+node_modules/
+venv/
 .venv/
+
+# Build artifacts
 __pycache__/
 *.pyc
+dist/
+build/
 .ipynb_checkpoints/
+
+# OS cruft
+.DS_Store
+Thumbs.db
